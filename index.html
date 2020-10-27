@@ -11,6 +11,8 @@
 -->
 <script src="ex06-5.js"></script>
 
+<script src="ex06-7.js"></script>
+
 </head>
 <body>
 <h1>練習問題２．２</h1>
@@ -215,18 +217,28 @@ ondblclick="alert('Hello, Kurihara!');">
  <script src="ex6-1.js"></script>
 
 <input type="button" value="ここをクリック" 
-onclick="sayhello();sayhello();">
+onclick="sayhello();sayhello61();">
 
 <script src="ex6-1.js"></script>
 
 <input type="button" value="ここをクリック" 
-onclick="saygoodbye();">
+onclick="saygoodbye61();">
 
 <script src="ex6-5.js"></script>
 
 <h1>変数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
-<input type="button" value="太郎" onclick="taro65();">
-<input type="button" value="花子" onclick="hanako65();">
+<input type="button" value="太郎" onclick="taro65();come65()">
+<input type="button" value="花子" onclick="hanako65();come65()">
+
+<h1>引数の練習</h1>
+<input type="button" value="あいさつ" onclick="sayhello67();">
+<input type="button" value="太郎" onclick="someone67('太郎');">
+<input type="button" value="花子" onclick="someone67('花子');">
+<br>
+<input type="button" value="レイ" onclick="someone67('レイ');">
+<input type="button" value="シンジ" onclick="someone67('シンジ');">
+<input type="button" value="アスカ" onclick="someone67('アスカ');">
+<br>
 </body>
 </html>
