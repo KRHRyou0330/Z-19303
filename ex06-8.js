@@ -7,3 +7,7 @@ function taro68() {
 function hanako68() {
     document.getElementById('who68').innerHTML= '花子';
 }
+
+function txtchange1() {
+    document.getElementById('txt1').innerHTML= 'ナンバーワン！';
+}
