@@ -15,3 +15,11 @@ function txtchange1() {
 function imgchange1() {
     document.getElementById('logo').src= './image/josailogo.jpg';
 }
+
+function imgchange2(){
+    document.getElementById('logo').src= './image/top-about_1.jpg';
+}
+
+function imgchange3(){
+    document.getElementById('logo1').src= './image/tomneko12151309.jpg';
+}
